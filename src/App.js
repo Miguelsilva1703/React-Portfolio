@@ -1,18 +1,28 @@
-import React from "react";
-import Nav from "./components/Nav";
-import Hero from "./components/Hero";
+import { React, useState } from "react";
+import Navbar from "./components/Nav/Nav";
+import SideNav from "./components/Nav/SideNav";
+import Hero from "./components/HeroSection/Hero";
 import Projects from "./components/ProjectsSection/Projects";
-import { useLocation } from "react-router-dom";
 import GlobalStyle from "./components/Styles/GlobalStyles";
+import Contact from "./components/ContactSection/Contact";
+import Footer from "./components/Footer/Footer";
 
 function App() {
-  const location = useLocation();
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <div className="App">
       <GlobalStyle />
-      <Nav />
+      <SideNav isOpen={isOpen} toggle={toggle} />
+      <Navbar toggle={toggle} />
       <Hero />
       <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 }

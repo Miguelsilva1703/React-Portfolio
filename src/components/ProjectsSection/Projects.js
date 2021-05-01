@@ -17,7 +17,7 @@ import soon from "../../images/comingsoon.webp";
 const Projects = () => {
   return (
     <>
-      <ProjectSection>
+      <ProjectSection id="projects">
         <ProjectsTitle>
           <h1>
             <span>My</span> Projects.
@@ -35,8 +35,8 @@ const Projects = () => {
               <p>This is a description</p>
             </CardDescription>
             <CardBtns>
-              <ButtonPri>button1</ButtonPri>
-              <ButtonPri>button2</ButtonPri>
+              <ButtonPri>Project</ButtonPri>
+              <ButtonPri>Github</ButtonPri>
             </CardBtns>
           </Card>
 
@@ -51,8 +51,8 @@ const Projects = () => {
               <p>This is a description</p>
             </CardDescription>
             <CardBtns>
-              <ButtonPri>button1</ButtonPri>
-              <ButtonPri>button2</ButtonPri>
+              <ButtonPri>Project</ButtonPri>
+              <ButtonPri>Github</ButtonPri>
             </CardBtns>
           </Card>
 
@@ -67,8 +67,8 @@ const Projects = () => {
               <p>This is a description</p>
             </CardDescription>
             <CardBtns>
-              <ButtonPri>button1</ButtonPri>
-              <ButtonPri>button2</ButtonPri>
+              <ButtonPri>Project</ButtonPri>
+              <ButtonPri>Github</ButtonPri>
             </CardBtns>
           </Card>
 
@@ -83,8 +83,8 @@ const Projects = () => {
               <p>This is a description</p>
             </CardDescription>
             <CardBtns>
-              <ButtonPri>button1</ButtonPri>
-              <ButtonPri>button2</ButtonPri>
+              <ButtonPri>Project</ButtonPri>
+              <ButtonPri>Github</ButtonPri>
             </CardBtns>
           </Card>
         </ProjectsArea>

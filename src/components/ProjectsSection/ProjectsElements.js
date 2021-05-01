@@ -2,7 +2,7 @@ import { React } from "react";
 import styled from "styled-components";
 
 export const ProjectSection = styled.section`
-  height: 100vh;
+  min-height: 100vh;
   padding: 1rem;
   color: white;
   position: relative;
@@ -22,11 +22,10 @@ export const ProjectsTitle = styled.div`
 
 export const ProjectsArea = styled.div`
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
 `;
 
 export const Card = styled.div`
-  overflow: hidden;
   text-align: center;
   padding: 0 0 32px;
   margin: 48px auto 0;

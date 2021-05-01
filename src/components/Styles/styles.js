@@ -35,7 +35,7 @@ export const Image = styled.div`
 
 export const ImageBg = styled.img`
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   -o-object-fit: cover;
   object-fit: cover;
   background: #232a34;
