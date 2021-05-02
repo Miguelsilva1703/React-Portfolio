@@ -11,7 +11,7 @@ export const StyledForm = styled.form`
 
 export const FormTitle = styled.h1`
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.9rem;
     margin-top: 25px;
     color: #d5d5d5;
     text-shadow: 0px 2px 10px rgba(150, 150, 150, 1);
