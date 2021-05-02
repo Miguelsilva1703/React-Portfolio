@@ -10,7 +10,7 @@ export const ProjectSection = styled.section`
 
 export const ProjectsTitle = styled.div`
   display: flex;
-  margin: 5rem auto;
+  margin: 8rem auto;
   font-size: 3rem;
   align-items: center;
   justify-content: center;

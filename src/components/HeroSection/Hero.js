@@ -1,6 +1,4 @@
 import React from "react";
-import styled from "styled-components";
-import { Layout, Video, ImageBg, ButtonPri } from "../Styles/styles";
 import {
   HeroContainer,
   HeroContents,
@@ -19,7 +17,9 @@ const Hero = () => {
           <h1>Hi, I'm Miguel</h1>
           <h3>Front-End Developer</h3>
           <HeroBtns>
-            <ButtonPri to="../../cv/MSilva2020.pdf">My Resume</ButtonPri>
+            <a href="#" download="../../cv/MSilva2020.pdf" target="_blank">
+              <button>My Resume</button>
+            </a>
           </HeroBtns>
         </HeroContents>
       </HeroContainer>

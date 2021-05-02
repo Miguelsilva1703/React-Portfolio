@@ -8,7 +8,7 @@ export const Stylednav = styled.nav`
   margin: auto;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 10rem;
+  padding: 0rem 2rem;
   background: #282828;
   position: sticky;
   top: 0;
@@ -28,6 +28,7 @@ export const Stylednav = styled.nav`
     font-weight: lighter;
   }
   @media screen and (max-width: 768px) {
+    padding: 0.5rem 1rem;
   }
 `;
 

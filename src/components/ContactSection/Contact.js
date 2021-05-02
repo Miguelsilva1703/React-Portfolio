@@ -1,8 +1,7 @@
-import React from "react";
+import { React, useState } from "react";
 import {
   ContactSection,
   ContactWrap,
-  ContactForm,
   FormTitle,
   FormContents,
   FormInput,
@@ -11,8 +10,8 @@ import {
   BtnWrap,
 } from "./ContactElements";
 import { ButtonPri } from "../Styles/styles.js";
-
 import contactImg from "../../images/Contact.jpg";
+import ContactForm from "../Reusables/ContactForm/Form";
 
 const Contact = () => {
   return (
@@ -20,13 +19,45 @@ const Contact = () => {
       <ContactSection id="contact">
         <BgImg src={contactImg} />
         <ContactWrap>
-          <ContactForm>
+          <ContactForm />
+        </ContactWrap>
+      </ContactSection>
+    </>
+  );
+};
+
+export default Contact;
+
+/*
+
+const [submitting, setSubmitting] = useState(false);
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    setSubmitting(true);
+
+    setTimeout(() => {
+      setSubmitting(false);
+    }, 3000);
+  };
+
+
+
+Render section:
+
+<ContactForm onSubmit={handleSubmit}>
             <FormTitle>
               <h1>Get in touch</h1>
             </FormTitle>
             <FormContents>
               <label htmlFor="name">Name</label>
-              <FormInput type="text" name="name" placeholder="Name" />
+              <FormInput
+                type="text"
+                name="name"
+                placeholder="Name"
+                value={state}
+                onChange="#"
+              />
 
               <label htmlFor="email">Email</label>
               <FormInput
@@ -41,14 +72,18 @@ const Contact = () => {
                 placeholder="Hi there, I'm reaching out because I have this amazing opportunity for you..."
               />
               <BtnWrap>
-                <ButtonPri>Submit</ButtonPri>
+                <button type="submit">Send</button>
+                {submitting && (
+                  <div>
+                    <span style={{ color: "#74C8FF", fontWeight: "bold" }}>
+                      Submitting Form...
+                    </span>
+                  </div>
+                )}
               </BtnWrap>
             </FormContents>
           </ContactForm>
-        </ContactWrap>
-      </ContactSection>
-    </>
-  );
-};
 
-export default Contact;
+
+
+*/
