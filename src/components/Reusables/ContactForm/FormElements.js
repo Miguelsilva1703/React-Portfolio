@@ -26,12 +26,15 @@ export const FormContents = styled.div`
     display: flex;
     flex-direction: column;
 
+    div {
+        margin-bottom: 5px;
+    }
+
     label {
         text-shadow: 0px 2px 10px rgba(0, 0, 0, 1);
         font-size: 1.2rem;
         font-weight: 700;
         color: #de3b0b;
-        margin-bottom: 15px;
     }
     button {
         display: flex;
@@ -43,7 +46,7 @@ export const FormContents = styled.div`
         border: 1px solid rgba(0, 0, 0, 0.64);
         text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
         padding: 5px;
-        width: 85%;
+        width: 25%;
         height: 40px;
         font-size: 1.1rem;
         font-weight: 900;
@@ -66,10 +69,12 @@ export const FormInput = styled.input`
     width: 100%;
     height: 30px;
     margin-bottom: 15px;
+    margin-top: 5px;
     font-size: 1rem;
     font-weight: 700;
     -webkit-box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.6);
     box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
 `;
 
 export const FormTextArea = styled.textarea`
@@ -81,4 +86,6 @@ export const FormTextArea = styled.textarea`
     font-weight: 700;
     -webkit-box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.6);
     box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    margin-top: 5px;
 `;

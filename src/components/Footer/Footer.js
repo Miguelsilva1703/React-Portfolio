@@ -10,13 +10,17 @@ const Footer = () => {
                 <SocialMedia>
                     <FooterLink>
                         <IconContext.Provider value={{ color: "#d5d5d5", size: "60px" }}>
-                            <FaGithubSquare />
+                            <a href="https://github.com/Miguelsilva1703" target="_blank">
+                                <FaGithubSquare />
+                            </a>
                         </IconContext.Provider>
                     </FooterLink>
 
                     <FooterLink>
                         <IconContext.Provider value={{ color: "#0A66C2", size: "60px" }}>
-                            <FaLinkedin />
+                            <a href="https://www.linkedin.com/in/miguel-silva-6145071a9/" target="_blank">
+                                <FaLinkedin />
+                            </a>
                         </IconContext.Provider>
                     </FooterLink>
                 </SocialMedia>

@@ -40,7 +40,7 @@ export default function ContactForm() {
                     <label htmlFor="message">Message</label>
                     <FormTextArea type="text" className="form-control" placeholder="Your message" name="message"></FormTextArea>
                 </div>
-                <button type="submit">Send Message</button>
+                <button type="submit">Send</button>
             </FormContents>
         </StyledForm>
     );

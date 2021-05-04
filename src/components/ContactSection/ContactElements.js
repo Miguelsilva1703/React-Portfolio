@@ -19,10 +19,10 @@ export const ContactWrap = styled.div`
     display: flex;
     position: absolute;
     top: 20%;
-    left: 36%;
+    left: 34%;
     justify-content: center;
     align-items: center;
-    height: 530px;
+    height: 575px;
     width: 600px;
     border-radius: 10px;
     background: rgb(27, 27, 27, 0.2);
