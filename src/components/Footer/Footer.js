@@ -10,7 +10,7 @@ const Footer = () => {
                 <SocialMedia>
                     <FooterLink>
                         <IconContext.Provider value={{ color: "#d5d5d5", size: "60px" }}>
-                            <a href="https://github.com/Miguelsilva1703" target="_blank">
+                            <a href="https://github.com/Miguelsilva1703" target="_blank" rel="noreferrer">
                                 <FaGithubSquare />
                             </a>
                         </IconContext.Provider>
@@ -18,7 +18,7 @@ const Footer = () => {
 
                     <FooterLink>
                         <IconContext.Provider value={{ color: "#0A66C2", size: "60px" }}>
-                            <a href="https://www.linkedin.com/in/miguel-silva-6145071a9/" target="_blank">
+                            <a href="https://www.linkedin.com/in/miguel-silva-6145071a9/" target="_blank" rel="noreferrer">
                                 <FaLinkedin />
                             </a>
                         </IconContext.Provider>

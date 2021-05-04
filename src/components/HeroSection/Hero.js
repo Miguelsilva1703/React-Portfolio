@@ -28,7 +28,7 @@ const Hero = () => {
                     </animated.div>
 
                     <HeroBtns>
-                        <a href="#" target="_blank">
+                        <a href="https://docs.google.com/document/d/1RmtW75eTc0lwHk6FfuRa3zHr-ddC82kjbuf3Y-UMQUs/edit?usp=sharing" target="_blank" rel="noreferrer">
                             <button>My Resume</button>
                         </a>
                     </HeroBtns>
