@@ -1,11 +1,12 @@
 import React from "react";
-import { ProjectSection, ProjectsTitle, ProjectsArea, Card, CardHeader, CardImg, CardTitle, CardDescription, CardBtns } from "./ProjectsElements.js";
+import { ProjectSection, ProjectsTitle, ProjectsArea, Card, CardHeader, CardImg, CardTitle, CardDescription, CardBtns, TopSpacer } from "./ProjectsElements.js";
 import soon from "../../images/comingsoon.webp";
 
 const Projects = () => {
     return (
         <>
             <ProjectSection id="projects">
+                <TopSpacer />
                 <ProjectsTitle>
                     <h1>
                         <span>My</span> Projects.

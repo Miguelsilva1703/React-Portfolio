@@ -1,15 +1,21 @@
 import styled from "styled-components";
 
 export const ProjectSection = styled.section`
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     min-height: 100vh;
     padding: 1rem;
     color: white;
     position: relative;
 `;
 
+export const TopSpacer = styled.section`
+    height: 5vh;
+`;
+
 export const ProjectsTitle = styled.div`
     display: flex;
-    margin: 8rem auto;
+    margin: 2rem auto 8rem auto;
     font-size: 3rem;
     align-items: center;
     justify-content: center;
@@ -28,7 +34,7 @@ export const ProjectsArea = styled.div`
 export const Card = styled.div`
     text-align: center;
     padding: 0 0 32px;
-    margin: 48px auto 0;
+    margin: 48px auto 0 250px;
     width: 300px;
     font-family: Quicksand, arial, sans-serif;
     -webkit-box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.5);
@@ -39,6 +45,9 @@ export const Card = styled.div`
         -webkit-box-shadow: 0px 5px 10px 20px rgba(0, 0, 0, 0.9);
         box-shadow: 0px 5px 10px 20px rgba(0, 0, 0, 0.9);
     }
+    @media all and (min-width: 1024px) and (max-width: 1280px) {
+        margin: 48px auto 0;
+    }
 `;
 
 export const CardHeader = styled.div`
@@ -48,6 +57,7 @@ export const CardHeader = styled.div`
 export const CardImg = styled.img`
     height: 100%;
     width: 100%;
+    border-radius: 4px;
 `;
 
 export const CardTitle = styled.header`

@@ -1,11 +1,24 @@
 import styled from "styled-components";
+import { Link as LinkS } from "react-scroll";
 
 export const HeroContainer = styled.section`
     position: relative;
-    min-height: 90vh;
+    min-height: 100vh;
+
     @media only screen and (max-width: 320px) {
         width: 100%;
     }
+`;
+
+export const HeroBg = styled.div`
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
 `;
 
 export const HeroImageBg = styled.img`
@@ -19,7 +32,7 @@ export const HeroImageBg = styled.img`
 
 export const HeroContents = styled.div`
     position: absolute;
-    top: 60%;
+    top: 72%;
     right: 40%;
     margin: 0 auto;
     text-align: center;
@@ -32,6 +45,19 @@ export const HeroContents = styled.div`
     h3 {
         font-size: 2rem;
         text-shadow: 0px 3px 10px #000000;
+    }
+
+    @media all and (min-width: 1024px) and (max-width: 1280px) {
+        top: 72%;
+        left: 45%;
+        h1 {
+            font-size: 1.8rem;
+            text-shadow: 3px 5px 2px #000, 6px 7px 9px rgba(0, 0, 0, 0.6);
+        }
+        h3 {
+            font-size: 1rem;
+            text-shadow: 0px 3px 10px #000000;
+        }
     }
 
     @media screen and (max-width: 768px) {
@@ -67,7 +93,7 @@ export const HeroBtns = styled.div`
         font-size: 1.1rem;
         font-weight: 900;
         border-radius: 15px;
-        margin: 10px 0 0 0;
+        margin: 15px 0 15px 0;
         -webkit-box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.44);
         box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.44);
         justify-content: center;
@@ -77,5 +103,27 @@ export const HeroBtns = styled.div`
             box-shadow: 0px 5px 20px 5px #000000;
             background: #de3b0b;
         }
+        @media all and (min-width: 1024px) and (max-width: 1280px) {
+            margin: 5px 0 15px 0;
+        }
     }
+`;
+
+export const IconArea = styled.div`
+    position: relative;
+    div {
+        position: absolute;
+        left: 38.5%;
+    }
+
+    @media all and (min-width: 1024px) and (max-width: 1280px) {
+        top: 40%;
+        left: -13%;
+    }
+`;
+
+export const IconLink = styled(LinkS)`
+    padding: 0 1rem;
+    height: 100%;
+    cursor: pointer;
 `;

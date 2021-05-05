@@ -5,6 +5,7 @@ export const Stylednav = styled.nav`
     min-height: 10vh;
     display: flex;
     margin: auto;
+    margin-top: -80px !important;
     justify-content: space-between;
     align-items: center;
     padding: 0rem 2rem;
@@ -91,3 +92,17 @@ export const NavLinks = styled(LinkS)`
         color: #de3b0b;
     }
 `;
+
+/* export const NavLinks = styled(LinkS)`
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    cursor: pointer;
+
+    &.active {
+        color: #de3b0b;
+    }
+`;*/

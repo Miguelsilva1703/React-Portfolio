@@ -8,23 +8,22 @@ import Contact from "./components/ContactSection/Contact";
 import Footer from "./components/Footer/Footer";
 
 function App() {
-  const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(false);
 
-  const toggle = () => {
-    setIsOpen(!isOpen);
-  };
+    const toggle = () => {
+        setIsOpen(!isOpen);
+    };
 
-  return (
-    <div className="App">
-      <GlobalStyle />
-      <SideNav isOpen={isOpen} toggle={toggle} />
-      <Navbar toggle={toggle} />
-      <Hero />
-      <Projects />
-      <Contact />
-      <Footer />
-    </div>
-  );
+    return (
+        <div className="App">
+            <GlobalStyle />
+            <Navbar />
+            <Hero />
+            <Projects />
+            <Contact />
+            <Footer />
+        </div>
+    );
 }
 
 export default App;

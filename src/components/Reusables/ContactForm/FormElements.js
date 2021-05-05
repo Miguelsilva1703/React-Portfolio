@@ -82,7 +82,7 @@ export const FormTextArea = styled.textarea`
     width: 100%;
     min-height: 100px;
     resize: none;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 700;
     -webkit-box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.6);
     box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.6);
