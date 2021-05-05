@@ -9,10 +9,6 @@ export const ProjectSection = styled.section`
     position: relative;
 `;
 
-export const TopSpacer = styled.section`
-    height: 5vh;
-`;
-
 export const ProjectsTitle = styled.div`
     display: flex;
     margin: 2rem auto 8rem auto;
@@ -34,7 +30,7 @@ export const ProjectsArea = styled.div`
 export const Card = styled.div`
     text-align: center;
     padding: 0 0 32px;
-    margin: 48px auto 0 250px;
+    margin: 48px auto;
     width: 300px;
     font-family: Quicksand, arial, sans-serif;
     -webkit-box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.5);

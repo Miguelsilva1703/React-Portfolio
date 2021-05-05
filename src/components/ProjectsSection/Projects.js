@@ -6,7 +6,6 @@ const Projects = () => {
     return (
         <>
             <ProjectSection id="projects">
-                <TopSpacer />
                 <ProjectsTitle>
                     <h1>
                         <span>My</span> Projects.

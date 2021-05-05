@@ -74,7 +74,7 @@ const Hero = () => {
                         <IconArea>
                             <animated.div style={fadeIcon}>
                                 <IconContext.Provider value={{ color: "#d5d5d5", size: "60px" }}>
-                                    <IconLink to="projects" smooth={true} duration={500} spy={true} exact="true" offset={0}>
+                                    <IconLink to="projects" smooth={true} duration={500} spy={true} offset={-80}>
                                         {" "}
                                         <BsChevronDown />
                                     </IconLink>

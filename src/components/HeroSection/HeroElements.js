@@ -4,8 +4,10 @@ import { Link as LinkS } from "react-scroll";
 export const HeroContainer = styled.section`
     position: relative;
     min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
 
-    @media only screen and (max-width: 320px) {
+    @media screen and (max-width: 320px) {
         width: 100%;
     }
 `;

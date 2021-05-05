@@ -19,7 +19,7 @@ export const ContactWrap = styled.div`
     display: flex;
     position: absolute;
     top: 20%;
-    left: 37%;
+    left: 36%;
     justify-content: center;
     align-items: center;
     height: 575px;
