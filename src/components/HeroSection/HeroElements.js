@@ -32,7 +32,7 @@ export const HeroImageBg = styled.img`
 
 export const HeroContents = styled.div`
     position: absolute;
-    top: 72%;
+    top: 67%;
     right: 40%;
     margin: 0 auto;
     text-align: center;
