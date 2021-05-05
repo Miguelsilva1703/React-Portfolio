@@ -17,7 +17,8 @@ function App() {
     return (
         <div className="App">
             <GlobalStyle />
-            <Navbar />
+            <SideNav isOpen={isOpen} toggle={toggle} />
+            <Navbar toggle={toggle} />
             <Hero />
             <Projects />
             <Contact />
