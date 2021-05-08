@@ -91,6 +91,7 @@ export const HeroContents = styled.div`
 
 export const HeroBtns = styled.div`
     display: flex;
+    flex-direction: column;
     margin-top: 20px;
     align-items: center;
     justify-content: center;
@@ -133,6 +134,7 @@ export const IconArea = styled.div`
         position: absolute;
         margin-left: auto;
         margin-right: auto;
+        top: 80px;
         left: 0;
         right: 0;
         text-align: center;

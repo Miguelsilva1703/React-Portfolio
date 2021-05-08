@@ -5,6 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { useSpring, animated } from "react-spring";
 import { BsChevronDown } from "react-icons/bs";
 import { IconContext } from "react-icons";
+import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 //Bootstrap
 
 const HeroBoot = () => {
@@ -73,6 +74,18 @@ const HeroBoot = () => {
                                         <a href="https://docs.google.com/document/d/1iJy797Rh4j10x95meG_UbErD4V1KQsHeoHpP1muQdxk/edit?usp=sharing" target="_blank" rel="noreferrer">
                                             <button>My Resume</button>
                                         </a>
+                                        <div>
+                                            <IconContext.Provider value={{ color: "#0A66C2", size: "40px" }}>
+                                                <a href="https://www.linkedin.com/in/miguel-silva-6145071a9/" target="_blank" rel="noreferrer">
+                                                    <FaLinkedin />
+                                                </a>
+                                            </IconContext.Provider>
+                                            <IconContext.Provider value={{ color: "#d5d5d5", size: "40px" }}>
+                                                <a href="https://github.com/Miguelsilva1703" target="_blank" rel="noreferrer">
+                                                    <FaGithubSquare />
+                                                </a>
+                                            </IconContext.Provider>
+                                        </div>
                                     </HeroBtns>
 
                                     <IconArea>

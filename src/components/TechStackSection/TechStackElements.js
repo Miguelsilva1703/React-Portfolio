@@ -6,7 +6,7 @@ export const TechStackSection = styled.section`
     background: linear-gradient(to down, #c4e0e5, #4ca1af); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     margin-bottom: 250px;
 
-    height: 50vh;
+    min-height: 60vh;
     @media screen and (max-width: 768px) {
         padding: 100px 0;
     }
