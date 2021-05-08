@@ -6,6 +6,7 @@ import GlobalStyle from "./components/Styles/GlobalStyles";
 import Contact from "./components/ContactSection/Contact";
 import Footer from "./components/Footer/Footer";
 import ProjectsBoot from "./components/ProjectsSectionBootstrap/ProjectsBootstrap";
+import TechStack from "./components/TechStackSection/TechStack";
 
 function App() {
     const [isOpen, setIsOpen] = useState(false);
@@ -21,6 +22,7 @@ function App() {
             <Navigation toggle={toggle} />
             <HeroBoot />
             <ProjectsBoot />
+            <TechStack />
             <Contact />
             <Footer />
         </div>
@@ -38,6 +40,7 @@ export default App;
             <Navigation toggle={toggle} />
             <HeroBoot />
             <ProjectsBoot />
+            <TechStack />
             <Contact />
             <Footer />
 
