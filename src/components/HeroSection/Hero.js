@@ -27,7 +27,7 @@ const Hero = () => {
         config: {
             duration: 2000,
         },
-        delay: 1000,
+        delay: 900,
     });
 
     const fadeBtns = useSpring({

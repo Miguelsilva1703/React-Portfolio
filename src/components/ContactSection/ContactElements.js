@@ -22,7 +22,7 @@ export const ContactWrap = styled.div`
     left: 36%;
     justify-content: center;
     align-items: center;
-    height: 575px;
+    height: 595px;
     width: 600px;
     border-radius: 10px;
     background: rgb(27, 27, 27, 0.2);
@@ -30,22 +30,45 @@ export const ContactWrap = styled.div`
     box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.6);
 
     @media all and (min-width: 1024px) and (max-width: 1280px) {
-        top: 10%;
-        left: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
     }
 
     @media screen and (max-width: 1000px) {
-        top: 30%;
-        left: 15%;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
     }
 
     @media screen and (max-width: 768px) {
-        top: 30%;
-        left: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
     }
     @media screen and (max-width: 375px) {
-        width: 80%;
-        top: 20%;
-        min-height: 570px;
+        height: 575px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        padding: 100px;
     }
 `;
+
+/*
+margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+*/

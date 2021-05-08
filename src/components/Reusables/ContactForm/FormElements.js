@@ -5,12 +5,18 @@ export const StyledForm = styled.form`
     width: 100%;
 
     @media screen and (max-width: 375px) {
-        width: 100%;
+        width: 70%;
     }
 `;
 
 export const FormTitle = styled.h1`
     text-align: center;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 5%;
     font-size: 2.9rem;
     margin-top: 25px;
     color: #d5d5d5;
@@ -19,12 +25,23 @@ export const FormTitle = styled.h1`
     h1 {
         font-weight: 700;
     }
+    @media screen and (max-width: 480px) {
+        font-size: 1.4rem;
+        left: 20%;
+        top: 10%;
+    }
 `;
 
 export const FormContents = styled.div`
     padding: 50px;
     display: flex;
     flex-direction: column;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 10%;
 
     div {
         margin-bottom: 5px;
@@ -88,4 +105,43 @@ export const FormTextArea = styled.textarea`
     box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.6);
     border-radius: 5px;
     margin-top: 5px;
+
+    @media screen and (max-width: 480px) {
+        min-height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        top: 30%;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
 `;
+
+/**/
+/* @media all and (min-width: 1024px) and (max-width: 1280px) {
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+    @media all and (min-width: 480px) and (max-width: 768px) {
+    }
+
+    @media all and (max-width: 480px) {
+        padding: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        top: 30%;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }*/

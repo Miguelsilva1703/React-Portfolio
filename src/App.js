@@ -1,11 +1,11 @@
 import { React, useState } from "react";
-import Navbar from "./components/Nav/Nav";
+import Navigation from "./components/Nav/Nav";
 import SideNav from "./components/Nav/SideNav";
-import Hero from "./components/HeroSection/Hero";
-import Projects from "./components/ProjectsSection/Projects";
+import HeroBoot from "./components/HeroSectionBootstrap/HeroBoot";
 import GlobalStyle from "./components/Styles/GlobalStyles";
 import Contact from "./components/ContactSection/Contact";
 import Footer from "./components/Footer/Footer";
+import ProjectsBoot from "./components/ProjectsSectionBootstrap/ProjectsBootstrap";
 
 function App() {
     const [isOpen, setIsOpen] = useState(false);
@@ -18,9 +18,9 @@ function App() {
         <div className="App">
             <GlobalStyle />
             <SideNav isOpen={isOpen} toggle={toggle} />
-            <Navbar toggle={toggle} />
-            <Hero />
-            <Projects />
+            <Navigation toggle={toggle} />
+            <HeroBoot />
+            <ProjectsBoot />
             <Contact />
             <Footer />
         </div>
@@ -28,3 +28,20 @@ function App() {
 }
 
 export default App;
+
+/**
+
+ 
+
+             <GlobalStyle />
+            <SideNav isOpen={isOpen} toggle={toggle} />
+            <Navigation toggle={toggle} />
+            <HeroBoot />
+            <ProjectsBoot />
+            <Contact />
+            <Footer />
+
+
+
+
+ */

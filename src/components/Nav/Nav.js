@@ -4,7 +4,7 @@ import { IconContext } from "react-icons/lib";
 import { Stylednav, NavLinks, NavLogo, MobileIcon, NavMenu, NavItem } from "./NavElements";
 import * as Scroll from "react-scroll";
 
-const Nav = ({ toggle }) => {
+const Navigation = ({ toggle }) => {
     const scrollSpy = Scroll.scrollSpy;
 
     useEffect(() => {
@@ -47,4 +47,4 @@ const Nav = ({ toggle }) => {
     );
 };
 
-export default Nav;
+export default Navigation;

@@ -33,7 +33,7 @@ export const Stylednav = styled.nav`
 `;
 
 export const NavLogo = styled(LinkS)`
-    color: #fff;
+    color: #fff !important;
     display: flex;
     align-items: center;
     justify-self: flex-start;
@@ -80,7 +80,7 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(LinkS)`
-    color: #fff;
+    color: #fff !important;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -89,7 +89,7 @@ export const NavLinks = styled(LinkS)`
     cursor: pointer;
 
     &.active {
-        color: #de3b0b;
+        color: #de3b0b !important;
     }
 `;
 
