@@ -70,7 +70,7 @@ const HeroBoot = () => {
 
                                 <animated.div style={fadeBtns}>
                                     <HeroBtns>
-                                        <a href="https://docs.google.com/document/d/1H-x8uY0OsDd37UHpG2jrWKQr6SKU4Gca61g3OaEHT5A/edit?usp=sharing" target="_blank" rel="noreferrer">
+                                        <a href="https://docs.google.com/document/d/1iJy797Rh4j10x95meG_UbErD4V1KQsHeoHpP1muQdxk/edit?usp=sharing" target="_blank" rel="noreferrer">
                                             <button>My Resume</button>
                                         </a>
                                     </HeroBtns>
