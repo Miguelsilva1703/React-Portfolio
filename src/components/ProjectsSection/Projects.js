@@ -5,7 +5,7 @@ import soon from "../../images/comingsoon.webp";
 const Projects = () => {
     return (
         <>
-            <ProjectSection id="projects">
+            <ProjectSection>
                 <ProjectsTitle>
                     <h1>
                         <span>My</span> Projects.

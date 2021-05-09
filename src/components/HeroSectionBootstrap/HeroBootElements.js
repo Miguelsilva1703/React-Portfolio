@@ -41,10 +41,12 @@ export const HeroContents = styled.div`
     h1 {
         font-size: 4rem;
         text-shadow: 3px 5px 2px #000, 6px 7px 9px rgba(0, 0, 0, 0.6);
+        font-weight: 700;
     }
     h3 {
         font-size: 2rem;
         text-shadow: 0px 3px 10px #000000;
+        font-weight: 700;
     }
 
     @media all and (min-width: 1024px) and (max-width: 1280px) {
@@ -134,7 +136,7 @@ export const IconArea = styled.div`
         position: absolute;
         margin-left: auto;
         margin-right: auto;
-        top: 80px;
+        top: 60px;
         left: 0;
         right: 0;
         text-align: center;

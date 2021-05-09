@@ -29,6 +29,8 @@ export const HrContainer = styled.div`
 export const FooterHr = styled.hr`
     width: 80%;
     margin: 0.2rem auto;
+    height: 2px;
+    background-color: #fff;
 
     @media screen and (max-width: 375px) {
         position: absolute;

@@ -26,7 +26,7 @@ const GlobalStyle = createGlobalStyle`
 
 .IconPosTop{
     position: absolute;
-    top: 15%;
+    top: 7%;
     right: 10%;
    cursor: pointer;
 }

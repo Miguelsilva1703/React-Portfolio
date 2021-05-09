@@ -8,6 +8,7 @@ export const ProjectSection = styled.section`
     padding: 1rem;
     color: white;
     position: relative;
+    font-family: "Inter", sans-serif;
 `;
 
 export const ProjectsTitle = styled.div`
@@ -34,7 +35,7 @@ export const Card = styled.div`
     -webkit-box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.5);
     box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
-    background: #4f4f4f;
+    background: #333333;
     &:hover {
         -webkit-box-shadow: 0px 5px 10px 20px rgba(0, 0, 0, 0.9);
         box-shadow: 0px 5px 10px 20px rgba(0, 0, 0, 0.9);
@@ -46,30 +47,51 @@ export const Card = styled.div`
 
 export const CardHeader = styled.div`
     height: 250px;
+    overflow: hidden;
+    border-radius: 5px;
+    border-bottom: 3px solid #000;
 `;
 
 export const CardImg = styled.img`
     height: 100%;
     width: 100%;
-    border-radius: 4px;
+    border-radius: 10px;
+    transform: scale(1.15);
+    cursor: pointer;
+    &:hover {
+        transform: scale(1.03);
+        transition: all 0.5s ease-in-out;
+    }
 `;
 
 export const CardTitle = styled.header`
     padding-top: 10px;
     padding: 15px 10px 10px 10px;
+    border-bottom: 3px solid #000;
+    h1 {
+        font-weight: bold !important;
+    }
 `;
 
 export const CardDescription = styled.div`
-    padding: 0 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
 `;
 
 export const CardBtns = styled.div`
-    display: flex;
     position: relative;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 35px 0 10px 0;
+    margin: 0 0 10px 0;
+    div {
+        margin-left: 2rem;
+    }
+    a {
+        text-decoration: none;
+    }
+
     button {
         display: flex;
         background: #ff6600;
@@ -79,7 +101,7 @@ export const CardBtns = styled.div`
         border: 1px solid rgba(0, 0, 0, 0.64);
         text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
         padding: 5px;
-        width: 85%;
+        width: 95%;
         height: 40px;
         font-size: 1.1rem;
         font-weight: 900;
