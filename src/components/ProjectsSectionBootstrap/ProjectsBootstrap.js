@@ -65,7 +65,7 @@ const ProjectsBoot = () => {
 
                                 <CardBtns>
                                     <div>
-                                        <a href="#" target="_blank" rel="noreferrer">
+                                        <a href="/#" target="_blank" rel="noreferrer">
                                             <button>View Project</button>
                                         </a>
                                         <div className="IconPosTop">
@@ -93,7 +93,7 @@ const ProjectsBoot = () => {
 
                                 <CardBtns>
                                     <div>
-                                        <a href="#" target="_blank" rel="noreferrer">
+                                        <a href="/#" target="_blank" rel="noreferrer">
                                             <button>View Project</button>
                                         </a>
                                         <div className="IconPosTop">
@@ -121,7 +121,7 @@ const ProjectsBoot = () => {
 
                                 <CardBtns>
                                     <div>
-                                        <a href="#" target="_blank" rel="noreferrer">
+                                        <a href="/#" target="_blank" rel="noreferrer">
                                             <button>View Project</button>
                                         </a>
                                         <div className="IconPosTop">
