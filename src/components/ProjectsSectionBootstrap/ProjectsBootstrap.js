@@ -6,6 +6,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { AiOutlineEye } from "react-icons/ai";
 import { FiGithub } from "react-icons/fi";
 import Project1 from "../../images/Project1.png";
+import VirtualBank from "../../images/VirtualBank.png";
 
 const ProjectsBoot = () => {
     return (
@@ -22,13 +23,13 @@ const ProjectsBoot = () => {
                     <Row>
                         <Col>
                             <Card>
+                                <CardTitle>
+                                    <h1>BoniFood</h1>
+                                </CardTitle>
                                 <CardHeader>
                                     <CardImg src={Project1} />
                                 </CardHeader>
 
-                                <CardTitle>
-                                    <h1>BoniFood</h1>
-                                </CardTitle>
                                 <CardDescription>
                                     <p>Created a website for a fictional restaurant using HTML and CSS only. My very first project.</p>
                                 </CardDescription>
@@ -59,13 +60,19 @@ const ProjectsBoot = () => {
                         </Col>
                         <Col>
                             <Card>
+                                <CardTitle>
+                                    <h1>DCO Bank</h1>
+                                </CardTitle>
                                 <CardHeader>
-                                    <CardImg src={soon} />
+                                    <CardImg src={VirtualBank} />
                                 </CardHeader>
+                                <CardDescription>
+                                    <p>Site for fictional virtual bank created using React, Bootstrap, JSX, CSS and JavaScript.</p>
+                                </CardDescription>
 
                                 <CardBtns>
                                     <div>
-                                        <a href="/#" target="_blank" rel="noreferrer">
+                                        <a href="https://heuristic-newton-bdcdae.netlify.app/" target="_blank" rel="noreferrer">
                                             <button>View Project</button>
                                         </a>
                                         <div className="IconPosTop">
@@ -80,7 +87,9 @@ const ProjectsBoot = () => {
                                             </IconContext.Provider>
                                         </div>
 
-                                        <button>Github</button>
+                                        <a href="https://github.com/Miguelsilva1703/DCO-Bank" target="_blank" rel="noreferrer">
+                                            <button>GitHub</button>
+                                        </a>
                                     </div>
                                 </CardBtns>
                             </Card>

@@ -56,7 +56,7 @@ export const CardImg = styled.img`
     height: 100%;
     width: 100%;
     border-radius: 10px;
-    transform: scale(1.15);
+    transform: scale(1.1);
     cursor: pointer;
     &:hover {
         transform: scale(1.03);
@@ -76,7 +76,10 @@ export const CardTitle = styled.header`
 export const CardDescription = styled.div`
     padding: 10px 10px 10px 10px;
     font-size: 1.2rem;
-    font-weight: 600;
+    p {
+        font-family: "Roboto";
+        font-weight: 400;
+    }
 `;
 
 export const CardBtns = styled.div`
