@@ -7,6 +7,7 @@ import { AiOutlineEye } from "react-icons/ai";
 import { FiGithub } from "react-icons/fi";
 import Project1 from "../../images/Project1.png";
 import VirtualBank from "../../images/VirtualBank.png";
+import mediaPlayer from "../../images/mediaPlayer.png";
 
 const ProjectsBoot = () => {
     return (
@@ -96,13 +97,19 @@ const ProjectsBoot = () => {
                         </Col>
                         <Col>
                             <Card>
+                                <CardTitle>
+                                    <h1>Media Player</h1>
+                                </CardTitle>
                                 <CardHeader>
-                                    <CardImg src={soon} />
+                                    <CardImg src={mediaPlayer} />
                                 </CardHeader>
+                                <CardDescription>
+                                    <p>Created my own media player using React, Bootstrap, JSX, CSS and JavaScript.</p>
+                                </CardDescription>
 
                                 <CardBtns>
                                     <div>
-                                        <a href="/#" target="_blank" rel="noreferrer">
+                                        <a href="https://dreamy-bose-df7123.netlify.app/" target="_blank" rel="noreferrer">
                                             <button>View Project</button>
                                         </a>
                                         <div className="IconPosTop">
@@ -116,8 +123,9 @@ const ProjectsBoot = () => {
                                                 <FiGithub />
                                             </IconContext.Provider>
                                         </div>
-
-                                        <button>Github</button>
+                                        <a href="https://github.com/Miguelsilva1703/My-music-player" target="_blank" rel="noreferrer">
+                                            <button>Github</button>
+                                        </a>
                                     </div>
                                 </CardBtns>
                             </Card>

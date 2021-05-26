@@ -5,6 +5,10 @@ export const HeroSection = styled.section`
     min-height: 100vh;
     width: 100vw;
 
+    @media screen and (max-width: 365px) {
+        width: 100%;
+    }
+
     @media screen and (max-width: 320px) {
         width: 100%;
     }
@@ -49,7 +53,7 @@ export const HeroContents = styled.div`
         font-weight: 700;
     }
 
-    @media all and (min-width: 1024px) and (max-width: 1280px) {
+    @media screen and (min-width: 1024px) and (max-width: 1280px) {
         top: 72%;
         left: 45%;
         h1 {
@@ -62,7 +66,7 @@ export const HeroContents = styled.div`
         }
     }
 
-    @media all and (min-width: 1024px) and (max-width: 1280px) {
+    @media screen and (min-width: 1024px) and (max-width: 1280px) {
         margin-left: auto;
         margin-right: auto;
         left: 0;
@@ -77,10 +81,10 @@ export const HeroContents = styled.div`
         right: 0;
         text-align: center;
     }
-    @media all and (min-width: 480px) and (max-width: 768px) {
+    @media screen and (min-width: 480px) and (max-width: 768px) {
     }
 
-    @media all and (max-width: 480px) {
+    @media screen and (max-width: 480px) {
         padding: 100px;
         margin-left: auto;
         margin-right: auto;
