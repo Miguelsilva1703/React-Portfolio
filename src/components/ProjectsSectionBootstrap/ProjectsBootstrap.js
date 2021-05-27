@@ -73,7 +73,7 @@ const ProjectsBoot = () => {
 
                                 <CardBtns>
                                     <div>
-                                        <a href="https://heuristic-newton-bdcdae.netlify.app/" target="_blank" rel="noreferrer">
+                                        <a href="https://suspicious-leavitt-f68e63.netlify.app/" target="_blank" rel="noreferrer">
                                             <button>View Project</button>
                                         </a>
                                         <div className="IconPosTop">
