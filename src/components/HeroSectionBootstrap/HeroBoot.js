@@ -13,12 +13,12 @@ const HeroBoot = () => {
             opacity: 1,
         },
         config: {
-            delay: 1150,
+            delay: 2050,
             duration: 2000,
         },
     });
 
-    const fadeH3 = useSpring({
+    /*   const fadeH3 = useSpring({
         from: { opacity: 0 },
         to: {
             opacity: 1,
@@ -27,7 +27,7 @@ const HeroBoot = () => {
             duration: 2000,
         },
         delay: 700,
-    });
+    }); */
 
     const fadeBtns = useSpring({
         from: { opacity: 0 },
@@ -37,7 +37,7 @@ const HeroBoot = () => {
         config: {
             duration: 2000,
         },
-        delay: 3000,
+        delay: 1000,
     });
 
     const fadeIcon = useSpring({
@@ -62,7 +62,7 @@ const HeroBoot = () => {
                             <HeroContents>
                                 <animated.div>
                                     <animated.h1 style={fadeH1}>Hi, I'm Miguel</animated.h1>
-                                    <animated.h3 style={fadeH3}>Front-End Developer</animated.h3>
+                                    <animated.h3 style={fadeH1}>Front-End Developer</animated.h3>
                                 </animated.div>
 
                                 <animated.div style={fadeBtns}>
