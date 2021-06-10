@@ -6,7 +6,8 @@ import { BsChevronDown } from "react-icons/bs";
 import { IconContext } from "react-icons";
 
 const Hero = () => {
-    const fadeH1 = useSpring({
+    /*
+const fadeH1 = useSpring({
         from: { opacity: 0, x: -900 },
         to: {
             opacity: 1,
@@ -28,7 +29,9 @@ const Hero = () => {
             duration: 2000,
         },
         delay: 900,
-    });
+    })
+
+*/
 
     const fadeBtns = useSpring({
         from: { opacity: 0 },
@@ -60,8 +63,8 @@ const Hero = () => {
 
                 <HeroContents>
                     <animated.div>
-                        <animated.h1 style={fadeH1}>Hi, I'm Miguel</animated.h1>
-                        <animated.h3 style={fadeH3}>Front-End Developer</animated.h3>
+                        <animated.h1>Hi, I'm Miguel</animated.h1>
+                        <animated.h3>Front-End Developer</animated.h3>
                     </animated.div>
 
                     <animated.div style={fadeBtns}>

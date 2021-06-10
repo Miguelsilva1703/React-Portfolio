@@ -8,10 +8,9 @@ import { IconContext } from "react-icons";
 
 const HeroBoot = () => {
     const fadeH1 = useSpring({
-        from: { opacity: 0, x: -900 },
+        from: { opacity: 0 },
         to: {
             opacity: 1,
-            x: 5,
         },
         config: {
             delay: 1150,
@@ -20,10 +19,9 @@ const HeroBoot = () => {
     });
 
     const fadeH3 = useSpring({
-        from: { opacity: 0, x: 800 },
+        from: { opacity: 0 },
         to: {
             opacity: 1,
-            x: -5,
         },
         config: {
             duration: 2000,
